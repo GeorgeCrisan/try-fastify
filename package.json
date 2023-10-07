@@ -1,0 +1,22 @@
+{
+  "name": "try-fastify",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "George Crisan @ georgerdp@gmail.com",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/server.js",
+    "dev": "tsc-watch --onFailure \"echo Compilation Failed\" --onSuccess \"yarn start\""
+  },
+  "dependencies": {
+    "fastify": "^4.23.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "tsc-watch": "^6.0.4",
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  }
+}
