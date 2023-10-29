@@ -11,12 +11,14 @@
     "dev": "tsc-watch --onFailure \"echo Compilation Failed\" --onSuccess \"yarn start\""
   },
   "dependencies": {
-    "fastify": "^4.23.2"
+    "fastify": "^4.23.2",
+    "oracledb": "^6.2.0"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
-    "tsc-watch": "^6.0.4",
+    "@types/oracledb": "^6.0.2",
     "@types/node": "^20.8.3",
+    "tsc-watch": "^6.0.4",
     "typescript": "^5.2.2"
   }
 }
